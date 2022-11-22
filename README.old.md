@@ -1,2 +1,0 @@
-# zakurosushi
-Zakuro Sushi
