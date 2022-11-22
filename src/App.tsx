@@ -1,4 +1,5 @@
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import Map from "./components/Map";
 import logo from "./assets/logo.png";
 import menu_1 from "./assets/menu/menu_01.jpeg";
 import menu_2 from "./assets/menu/menu_02.jpeg";
@@ -25,10 +26,10 @@ const App = () => {
               Horário
             </span>
             <span className="flex justify-center text-sm">
-              Segunda-feira a Sábado 20h00-23h00
+              Terça-feira a Domingo 19h00-23h30
             </span>
             <span className="flex justify-center text-sm">
-              Domingo Encerrado
+              Segunda-feira Encerrado
             </span>
           </div>
           <div className="flex w-full flex-col items-center">
