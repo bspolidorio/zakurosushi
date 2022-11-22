@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/zakurosushi/static/css/main.274897f4.css",
-    "main.js": "/zakurosushi/static/js/main.6cbf9df6.js",
+    "main.js": "/zakurosushi/static/js/main.d0b17e69.js",
     "static/media/menu_03.jpeg": "/zakurosushi/static/media/menu_03.62ab24caff49c2eef348.jpeg",
     "static/media/menu_01.jpeg": "/zakurosushi/static/media/menu_01.df0ac0fed569b9656e35.jpeg",
     "static/media/menu_02.jpeg": "/zakurosushi/static/media/menu_02.b875b0fb268ee78a1243.jpeg",
     "static/media/logo.png": "/zakurosushi/static/media/logo.c18314cf4f3a39f5fd10.png",
     "index.html": "/zakurosushi/index.html",
     "main.274897f4.css.map": "/zakurosushi/static/css/main.274897f4.css.map",
-    "main.6cbf9df6.js.map": "/zakurosushi/static/js/main.6cbf9df6.js.map"
+    "main.d0b17e69.js.map": "/zakurosushi/static/js/main.d0b17e69.js.map"
   },
   "entrypoints": [
     "static/css/main.274897f4.css",
-    "static/js/main.6cbf9df6.js"
+    "static/js/main.d0b17e69.js"
   ]
 }
