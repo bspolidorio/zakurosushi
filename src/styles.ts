@@ -29,6 +29,7 @@ export const GlobalStyles = css`
   }
 
   button {
+    cursor: pointer;
     border: none;
     margin: 0;
     padding: 0;
