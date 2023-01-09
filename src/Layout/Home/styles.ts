@@ -13,3 +13,9 @@ export const Main = styled.main`
   justify-content: center;
   align-items: center;
 `;
+
+export const Hero = styled.section`
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+`;

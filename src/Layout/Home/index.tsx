@@ -5,7 +5,9 @@ const Home = () => {
   return (
     <S.Container>
       <Header />
-      <S.Main>Hello World</S.Main>
+      <S.Main>
+        <S.Hero />
+      </S.Main>
     </S.Container>
   );
 };
