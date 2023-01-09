@@ -35,11 +35,19 @@ export const SocialsContainer = styled.div`
 `;
 
 export const SocialLink = styled.a`
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: ${({ theme }) => theme.color.primaryHighlight};
+  background-color: ${({ theme }) => theme.color.primaryLight};
   cursor: pointer;
   transition: all 0.3s linear;
 
   &:hover {
-    opacity: 0.9;
+    opacity: 0.7;
   }
 `;
 
