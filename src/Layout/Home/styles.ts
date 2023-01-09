@@ -12,4 +12,8 @@ export const Main = styled.main`
   flex-direction: column;
   padding-bottom: 150px;
   background-color: ${({ theme }) => theme.color.primaryLight};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    padding-bottom: 100px;
+  }
 `;

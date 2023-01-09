@@ -27,7 +27,8 @@ export const CarteContainer = styled.div`
   padding: 80px 60px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    padding: 40px 15px;
+    gap: 60px;
+    padding: 60px 15px;
   }
 `;
 
