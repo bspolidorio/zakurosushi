@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Header = styled.header`
-  position: relative;
+  position: fixed;
   display: flex;
   height: 90px;
   width: 100%;
