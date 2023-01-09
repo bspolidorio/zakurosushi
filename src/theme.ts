@@ -2,7 +2,7 @@ export const theme = {
   color: {
     primaryDark: "#000",
     primaryLight: "#FFF",
-    primaryHover: "#FF0000",
+    primaryHighlight: "#B24137",
   },
   breakpoints: {
     mobile: "576px",

@@ -5,6 +5,7 @@ export const GlobalStyles = css`
   body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
   }
   *,
   *::after,
@@ -22,5 +23,29 @@ export const GlobalStyles = css`
     height: 100vh;
     justify-content: center;
     text-rendering: optimizeLegibility;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+    &::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+    }
   }
 `;

@@ -38,7 +38,7 @@ export const Menu = styled.nav<MenuProps>`
     }
 
     &:hover {
-      color: ${({ theme }) => theme.color.primaryHover};
+      color: ${({ theme }) => theme.color.primaryHighlight};
     }
   }
 `;
