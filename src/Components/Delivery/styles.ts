@@ -37,6 +37,7 @@ export const title = styled.h2`
   font-size: 28px;
   color: ${({ theme }) => theme.color.primaryDark};
   text-align: center;
+  letter-spacing: 3px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     font-size: 22px;
