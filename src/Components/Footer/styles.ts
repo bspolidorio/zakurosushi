@@ -47,7 +47,7 @@ export const SocialLink = styled.a`
   transition: all 0.3s linear;
 
   &:hover {
-    opacity: 0.7;
+    opacity: 0.9;
   }
 `;
 

@@ -85,6 +85,11 @@ export const CarteButton = styled.button`
   letter-spacing: 1.5px;
   background-color: ${({ theme }) => theme.color.primaryHighlight};
   border-radius: 15px;
+  transition: all 0.3s linear;
+
+  &:hover {
+    opacity: 0.9;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     padding: 15px 30px;
@@ -112,7 +117,6 @@ export const ContactCard = styled.div<ContactCardProps>`
   width: 50%;
   height: 100%;
   padding: 30px 60px;
-  font-family: "Philosopher", sans-serif;
   color: ${({ theme, bgColor }) =>
     bgColor === "light" ? theme.color.primaryDark : theme.color.primaryLight};
   text-align: center;
