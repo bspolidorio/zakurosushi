@@ -2,17 +2,16 @@ import styled from "@emotion/styled";
 
 export const Header = styled.header`
   position: relative;
-  flex: 0 0 auto;
-  display: flex;
-  height: 120px;
-  width: 100%;
-  color: ${({ theme }) => theme.color.primaryDark};
-  background-color: ${({ theme }) => theme.color.primaryLight};
-`;
-
-export const LogoContainer = styled.div`
+  flex: 0 0 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
+  width: 100%;
+  padding: 20px 30px 0;
+  color: ${({ theme }) => theme.color.primaryDark};
+  background-color: ${({ theme }) => theme.color.primaryLight};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    justify-content: flex-end;
+  }
 `;

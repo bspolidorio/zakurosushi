@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { useOnClickOutside } from "../../Shared/hooks";
+import logo from "../../assets/img/logo.png";
 import Burger from "../Burger";
 import Menu from "../Menu";
 import * as S from "./styles";
@@ -11,7 +12,7 @@ const Header = () => {
 
   return (
     <S.Header>
-      <S.LogoContainer>ZAKURO SUSHI</S.LogoContainer>
+      <img src={logo} alt="Zakuro logo" />
       <div ref={node}>
         <Burger open={open} setOpen={setOpen} />
         <Menu open={open} />

@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const Hero = styled.section`
   width: 100%;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 160px);
   overflow: hidden;
 `;
 
