@@ -1,4 +1,5 @@
 import Header from "../../Components/Header";
+import Hero from "../../Components/Hero";
 import * as S from "./styles";
 
 const Home = () => {
@@ -6,7 +7,7 @@ const Home = () => {
     <S.Container>
       <Header />
       <S.Main>
-        <S.Hero />
+        <Hero />
       </S.Main>
     </S.Container>
   );

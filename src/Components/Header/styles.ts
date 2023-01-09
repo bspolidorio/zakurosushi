@@ -1,9 +1,10 @@
 import styled from "@emotion/styled";
 
 export const Header = styled.header`
-  position: fixed;
+  position: relative;
+  flex: 0 0 auto;
   display: flex;
-  height: 90px;
+  height: 120px;
   width: 100%;
   color: ${({ theme }) => theme.color.primaryDark};
   background-color: ${({ theme }) => theme.color.primaryLight};
