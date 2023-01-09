@@ -1,4 +1,5 @@
 import Delivery from "../../Components/Delivery";
+import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import Hero from "../../Components/Hero";
 import * as S from "./styles";
@@ -11,6 +12,7 @@ const Home = () => {
         <Hero />
         <Delivery />
       </S.Main>
+      <Footer />
     </S.Container>
   );
 };

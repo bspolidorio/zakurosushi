@@ -10,4 +10,6 @@ export const Container = styled.div`
 export const Main = styled.main`
   display: flex;
   flex-direction: column;
+  padding-bottom: 150px;
+  background-color: ${({ theme }) => theme.color.primaryLight};
 `;

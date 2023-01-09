@@ -12,7 +12,7 @@ export const Delivery = styled.section`
   overflow: hidden;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    height: initial;
+    height: unset;
     gap: 0;
   }
 `;
@@ -133,6 +133,7 @@ export const ContactImage = styled.img`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 15vw;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     width: 130px;
