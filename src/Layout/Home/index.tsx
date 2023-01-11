@@ -1,5 +1,5 @@
-import Delivery from "../../Components/Delivery";
-import Hero from "../../Components/Hero";
+import Delivery from "../../components/Delivery";
+import Hero from "../../components/Hero";
 import * as S from "./styles";
 
 const Home = () => {
