@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import * as S from "./styles";
 
 interface Props {
@@ -7,9 +8,8 @@ interface Props {
 const Navigation = ({ open }: Props) => {
   return (
     <S.Menu open={open}>
-      <a href="/">Home</a>
-      <a href="/">Cardápio</a>
-      <a href="/">Sobre</a>
+      <Link to="/">Home</Link>
+      <Link to="/cardapio">Cardápio</Link>
     </S.Menu>
   );
 };

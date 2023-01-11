@@ -1,13 +1,32 @@
 import { Global, ThemeProvider } from "@emotion/react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Layout/Home";
+import Root from "./routes/root";
 import { GlobalStyles } from "./styles";
 import { theme } from "./theme";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "cardapio",
+        element: <div>Hello</div>,
+      },
+    ],
+  },
+]);
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Global styles={GlobalStyles} />
-      <Home />
+      <RouterProvider router={router} />
     </ThemeProvider>
   );
 };
