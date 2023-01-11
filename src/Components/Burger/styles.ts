@@ -17,7 +17,7 @@ export const Burger = styled.button<BurgerProps>`
   background: transparent;
   border: none;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 20;
   cursor: pointer;
 
   &:focus {
