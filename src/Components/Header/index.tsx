@@ -4,6 +4,7 @@ import logo from "../../assets/img/logo.png";
 import Burger from "../Burger";
 import Menu from "../Menu";
 import * as S from "./styles";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -12,10 +13,12 @@ const Header = () => {
 
   return (
     <S.Header>
-      <img src={logo} alt="Zakuro logo" />
+      <Link to="/zakurosushi">
+        <img src={logo} alt="Zakuro logo" />
+      </Link>
       <div ref={node}>
         <Burger open={open} setOpen={setOpen} />
-        <Menu open={open} />
+        <Menu open={open} setOpen={setOpen} />
       </div>
     </S.Header>
   );

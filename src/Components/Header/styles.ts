@@ -11,6 +11,10 @@ export const Header = styled.header`
   color: ${({ theme }) => theme.color.primaryDark};
   background-color: ${({ theme }) => theme.color.primaryLight};
 
+  img {
+    cursor: pointer;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     justify-content: flex-end;
   }

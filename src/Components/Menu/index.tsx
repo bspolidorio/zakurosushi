@@ -3,13 +3,18 @@ import * as S from "./styles";
 
 interface Props {
   open: boolean;
+  setOpen: (value: boolean) => void;
 }
 
-const Navigation = ({ open }: Props) => {
+const Navigation = ({ open, setOpen }: Props) => {
   return (
     <S.Menu open={open}>
-      <Link to="/">Home</Link>
-      <Link to="/cardapio">Cardápio</Link>
+      <Link to="/zakurosushi" onClick={() => setOpen(!open)}>
+        Home
+      </Link>
+      <Link to="/zakurosushi/cardapio" onClick={() => setOpen(!open)}>
+        Cardápio
+      </Link>
     </S.Menu>
   );
 };

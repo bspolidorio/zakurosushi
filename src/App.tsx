@@ -1,22 +1,23 @@
 import { Global, ThemeProvider } from "@emotion/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Layout/Home";
+import Carte from "./layout/Carte";
+import Home from "./layout/Home";
 import Root from "./routes/root";
 import { GlobalStyles } from "./styles";
 import { theme } from "./theme";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/zakurosushi",
     element: <Root />,
     children: [
       {
-        path: "/",
+        path: "/zakurosushi",
         element: <Home />,
       },
       {
-        path: "cardapio",
-        element: <div>Hello</div>,
+        path: "/zakurosushi/cardapio",
+        element: <Carte />,
       },
     ],
   },

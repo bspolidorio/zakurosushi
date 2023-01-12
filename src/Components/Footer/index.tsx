@@ -6,9 +6,21 @@ const Footer = () => {
     <S.Footer>
       <S.Text>Nos siga nas redes sociais</S.Text>
       <S.SocialsContainer>
-        <S.SocialLink className="fa fa-instagram" />
-        <S.SocialLink className="fa fa-facebook" />
-        <S.SocialLink className="fa fa-whatsapp" />
+        <S.SocialLink
+          href="https://www.instagram.com/zakurosushisp/"
+          className="fa fa-instagram"
+          target="_blank"
+        />
+        <S.SocialLink
+          href="https://www.facebook.com/profile.php?id=100087250585685"
+          className="fa fa-facebook"
+          target="_blank"
+        />
+        <S.SocialLink
+          href="https://api.whatsapp.com/send?phone=5511974661227"
+          className="fa fa-whatsapp"
+          target="_blank"
+        />
       </S.SocialsContainer>
       <S.Logo src={logo_light} />
       <S.CopyrightText>2023 © Todos os direitos reservados</S.CopyrightText>

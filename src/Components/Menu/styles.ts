@@ -10,8 +10,9 @@ export const Menu = styled.nav<MenuProps>`
   justify-content: center;
   background: ${({ theme }) => theme.color.primaryDark};
   height: 100vh;
+  width: 30%;
   text-align: left;
-  padding: 2rem;
+  padding: 4rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -32,6 +33,7 @@ export const Menu = styled.nav<MenuProps>`
     color: ${({ theme }) => theme.color.primaryLight};
     text-decoration: none;
     transition: color 0.3s linear;
+    cursor: pointer;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
       font-size: 1.5rem;

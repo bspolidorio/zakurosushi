@@ -7,7 +7,7 @@ type BurgerProps = {
 export const Burger = styled.button<BurgerProps>`
   position: absolute;
   top: 50%;
-  left: 2rem;
+  left: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

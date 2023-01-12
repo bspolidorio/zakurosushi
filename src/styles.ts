@@ -28,6 +28,10 @@ export const GlobalStyles = css`
     margin: 0;
   }
 
+  a {
+    all: unset;
+  }
+
   button {
     cursor: pointer;
     border: none;

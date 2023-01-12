@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import hashi from "../../assets/img/hashi_sushi.png";
 import sushis from "../../assets/img/sushis.jpeg";
 import sashimis from "../../assets/img/sashimis.jpeg";
@@ -33,7 +34,14 @@ const Delivery = () => {
             Pratos quentes
           </S.CarteItem>
         </S.CarteList>
-        <S.CarteButton>Conheça nosso cardápio completo</S.CarteButton>
+        <Link
+          to="/zakurosushi/cardapio"
+          onClick={() =>
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+          }
+        >
+          <S.CarteButton>Conheça nosso cardápio completo</S.CarteButton>
+        </Link>
       </S.CarteContainer>
       <S.ContactContainer>
         <S.ContactImage src={hashi} />

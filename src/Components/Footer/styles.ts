@@ -38,7 +38,7 @@ export const SocialLink = styled.a`
   width: 60px;
   height: 60px;
   padding: 10px;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   border-radius: 50%;
   color: ${({ theme }) => theme.color.primaryHighlight};
