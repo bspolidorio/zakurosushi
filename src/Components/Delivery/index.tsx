@@ -34,12 +34,7 @@ const Delivery = () => {
             Pratos quentes
           </S.CarteItem>
         </S.CarteList>
-        <Link
-          to="/zakurosushi/cardapio"
-          onClick={() =>
-            window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
-          }
-        >
+        <Link to="/zakurosushi/cardapio">
           <S.CarteButton>Conheça nosso cardápio completo</S.CarteButton>
         </Link>
       </S.CarteContainer>
