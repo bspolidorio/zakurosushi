@@ -12,7 +12,7 @@ const Footer = () => {
           target="_blank"
         />
         <S.SocialLink
-          href="https://www.facebook.com/profile.php?id=100087250585685"
+          href="https://www.facebook.com/zakurosushisp/"
           className="fa fa-facebook"
           target="_blank"
         />
