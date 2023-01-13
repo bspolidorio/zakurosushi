@@ -110,7 +110,7 @@ export const dishes: Dishes = {
       name: "Atum",
       ingredients: "",
       veggie: false,
-      price: 20,
+      price: 21,
     },
     {
       name: "Camarão",
