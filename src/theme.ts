@@ -5,6 +5,6 @@ export const theme = {
     primaryHighlight: "#B24137",
   },
   breakpoints: {
-    mobile: "576px",
+    mobile: "768px",
   },
 };

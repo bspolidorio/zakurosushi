@@ -7,7 +7,6 @@ export const Delivery = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
   background-color: ${({ theme }) => theme.color.primaryLight};
   overflow: hidden;
 
@@ -100,7 +99,7 @@ export const CarteButton = styled.button`
 export const ContactContainer = styled.div`
   position: relative;
   display: flex;
-  height: 250px;
+  height: 200px;
   background-color: ${({ theme }) => theme.color.primaryHighlight};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
