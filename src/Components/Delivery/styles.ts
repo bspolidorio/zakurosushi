@@ -100,7 +100,7 @@ export const CarteButton = styled.button`
 export const ContactContainer = styled.div`
   position: relative;
   display: flex;
-  height: 200px;
+  height: 250px;
   background-color: ${({ theme }) => theme.color.primaryHighlight};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
