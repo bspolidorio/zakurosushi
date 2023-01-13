@@ -27,11 +27,11 @@ const CarteNavigation = () => {
         <div onClick={() => handleSmoothScroll("tamanho-ideal-*")}>
           <S.CarteItem>Combinados</S.CarteItem>
         </div>
-        <div onClick={() => handleSmoothScroll("sobremesas")}>
-          <S.CarteItem>Sobremesas</S.CarteItem>
-        </div>
         <div onClick={() => handleSmoothScroll("bebidas")}>
           <S.CarteItem>Bebidas</S.CarteItem>
+        </div>
+        <div onClick={() => handleSmoothScroll("sobremesas")}>
+          <S.CarteItem>Sobremesas</S.CarteItem>
         </div>
       </S.CarteList>
     </S.Navigation>
