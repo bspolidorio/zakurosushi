@@ -42,11 +42,11 @@ const Delivery = () => {
         <S.ContactImage src={hashi} />
         <S.ContactCard bgColor="dark">
           <S.ContactTitle>Faça seu pedido por telefone:</S.ContactTitle>
-          <S.ContactNumber> (11) 91234-5678</S.ContactNumber>
+          <S.ContactNumber> (11) 94395-1664</S.ContactNumber>
         </S.ContactCard>
         <S.ContactCard bgColor="highlight">
           <S.ContactTitle>ou por WhatsApp</S.ContactTitle>
-          <S.ContactNumber> (11) 91234-5678</S.ContactNumber>
+          <S.ContactNumber> (11) 97466-1227</S.ContactNumber>
         </S.ContactCard>
       </S.ContactContainer>
     </S.Delivery>
