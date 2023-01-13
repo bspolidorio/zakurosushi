@@ -10,6 +10,7 @@ export const Takeaway = styled.section`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     height: unset;
+    margin-top: 50px;
   }
 `;
 
@@ -23,7 +24,6 @@ export const Container = styled.div`
   padding: 80px 60px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    gap: 60px;
     padding: 60px 15px;
   }
 `;
@@ -49,6 +49,7 @@ export const ContactContainer = styled.div`
 `;
 
 export const Text = styled.div`
+  text-align: center;
   font-size: 22px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
