@@ -30,4 +30,4 @@ jobs:
         run: |
           npm ci
           npm run predeploy
-          npm deploy
+          npm run deploy
