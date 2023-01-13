@@ -20,9 +20,6 @@ export const Ingredients = styled.span`
   width: 100%;
   padding-right: 60px;
   font-size: 16px;
-  ::before {
-    content: " - ";
-  }
 `;
 
 export const Dots = styled.span`
