@@ -41,11 +41,19 @@ const Delivery = () => {
       <S.ContactContainer>
         <S.ContactImage src={hashi} />
         <S.ContactCard bgColor="dark">
-          <S.ContactTitle>Faça seu pedido por telefone:</S.ContactTitle>
-          <S.ContactNumber> (11) 94395-1664</S.ContactNumber>
+          <S.ContactTitle>Faça seu pedido online</S.ContactTitle>
+          <a
+            href="https://instadelivery.com.br/zakurosushi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <S.CarteButton> Clique aqui</S.CarteButton>
+          </a>
         </S.ContactCard>
         <S.ContactCard bgColor="highlight">
-          <S.ContactTitle>ou por WhatsApp</S.ContactTitle>
+          <S.ContactTitle> ou por telefone</S.ContactTitle>
+          <S.ContactNumber> (11) 94395-1664</S.ContactNumber>
+          <S.ContactTitle>e também WhatsApp</S.ContactTitle>
           <S.ContactNumber> (11) 97466-1227</S.ContactNumber>
         </S.ContactCard>
       </S.ContactContainer>
