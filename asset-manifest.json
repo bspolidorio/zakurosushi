@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/zakurosushi/static/css/main.1f75a50f.css",
-    "main.js": "/zakurosushi/static/js/main.dd5d169c.js",
-    "static/media/hero.jpeg": "/zakurosushi/static/media/hero.ab5cbf15eebd2ff89fa6.jpeg",
-    "static/media/logo.png": "/zakurosushi/static/media/logo.4f60f3e2a1da2ee51cc1.png",
-    "static/media/sushis.jpeg": "/zakurosushi/static/media/sushis.f36d3403d99f77dd10dc.jpeg",
-    "static/media/logo_light.png": "/zakurosushi/static/media/logo_light.0956bb973f98c4ca9f52.png",
-    "static/media/sashimis.jpeg": "/zakurosushi/static/media/sashimis.1bec4d488b5e7e185131.jpeg",
-    "static/media/pratos_quentes.jpeg": "/zakurosushi/static/media/pratos_quentes.322d21ec7c3c1340c75b.jpeg",
-    "static/media/hotrolls.jpeg": "/zakurosushi/static/media/hotrolls.e19b9508158151bb6da1.jpeg",
-    "static/media/temakis.jpeg": "/zakurosushi/static/media/temakis.58110bedd984705e2e2a.jpeg",
-    "static/media/hashi_sushi.png": "/zakurosushi/static/media/hashi_sushi.5da7fa4b7644e95adb90.png",
-    "index.html": "/zakurosushi/index.html",
-    "main.1f75a50f.css.map": "/zakurosushi/static/css/main.1f75a50f.css.map",
-    "main.dd5d169c.js.map": "/zakurosushi/static/js/main.dd5d169c.js.map"
+    "main.css": "/static/css/main.1f75a50f.css",
+    "main.js": "/static/js/main.aeca54a4.js",
+    "static/media/hero.jpeg": "/static/media/hero.ab5cbf15eebd2ff89fa6.jpeg",
+    "static/media/logo.png": "/static/media/logo.4f60f3e2a1da2ee51cc1.png",
+    "static/media/sushis.jpeg": "/static/media/sushis.f36d3403d99f77dd10dc.jpeg",
+    "static/media/logo_light.png": "/static/media/logo_light.0956bb973f98c4ca9f52.png",
+    "static/media/sashimis.jpeg": "/static/media/sashimis.1bec4d488b5e7e185131.jpeg",
+    "static/media/pratos_quentes.jpeg": "/static/media/pratos_quentes.322d21ec7c3c1340c75b.jpeg",
+    "static/media/hotrolls.jpeg": "/static/media/hotrolls.e19b9508158151bb6da1.jpeg",
+    "static/media/temakis.jpeg": "/static/media/temakis.58110bedd984705e2e2a.jpeg",
+    "static/media/hashi_sushi.png": "/static/media/hashi_sushi.5da7fa4b7644e95adb90.png",
+    "index.html": "/index.html",
+    "main.1f75a50f.css.map": "/static/css/main.1f75a50f.css.map",
+    "main.aeca54a4.js.map": "/static/js/main.aeca54a4.js.map"
   },
   "entrypoints": [
     "static/css/main.1f75a50f.css",
-    "static/js/main.dd5d169c.js"
+    "static/js/main.aeca54a4.js"
   ]
 }
