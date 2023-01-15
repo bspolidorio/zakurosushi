@@ -56,6 +56,7 @@ export const Logo = styled.img`
   top: 50%;
   right: 60px;
   transform: translateY(-50%);
+  width: 150px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     top: unset;

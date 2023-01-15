@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <S.Header>
       <Link to="/zakurosushi">
-        <img src={logo} alt="Zakuro logo" />
+        <img src={logo} width="200px" alt="Zakuro logo" />
       </Link>
       <div ref={node}>
         <Burger open={open} setOpen={setOpen} />
