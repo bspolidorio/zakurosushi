@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <S.Header>
-      <Link to="/zakurosushi">
+      <Link to="/">
         <img src={logo} width="200px" alt="Zakuro logo" />
       </Link>
       <div ref={node}>

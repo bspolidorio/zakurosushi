@@ -8,15 +8,15 @@ import { theme } from "./theme";
 
 const router = createBrowserRouter([
   {
-    path: "/zakurosushi",
+    path: "/",
     element: <Root />,
     children: [
       {
-        path: "/zakurosushi",
+        path: "/",
         element: <Home />,
       },
       {
-        path: "/zakurosushi/cardapio",
+        path: "/cardapio",
         element: <Carte />,
       },
     ],

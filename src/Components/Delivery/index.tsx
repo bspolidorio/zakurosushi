@@ -34,7 +34,7 @@ const Delivery = () => {
             Pratos quentes
           </S.CarteItem>
         </S.CarteList>
-        <Link to="/zakurosushi/cardapio">
+        <Link to="/cardapio">
           <S.CarteButton>Conheça nosso cardápio completo</S.CarteButton>
         </Link>
       </S.CarteContainer>

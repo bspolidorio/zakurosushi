@@ -9,10 +9,10 @@ interface Props {
 const Navigation = ({ open, setOpen }: Props) => {
   return (
     <S.Menu open={open}>
-      <Link to="/zakurosushi" onClick={() => setOpen(!open)}>
+      <Link to="/" onClick={() => setOpen(!open)}>
         Home
       </Link>
-      <Link to="/zakurosushi/cardapio" onClick={() => setOpen(!open)}>
+      <Link to="/cardapio" onClick={() => setOpen(!open)}>
         Cardápio
       </Link>
     </S.Menu>
