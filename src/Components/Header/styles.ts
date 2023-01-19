@@ -14,8 +14,4 @@ export const Header = styled.header`
   img {
     cursor: pointer;
   }
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    justify-content: flex-end;
-  }
 `;

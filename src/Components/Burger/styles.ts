@@ -20,6 +20,10 @@ export const Burger = styled.button<BurgerProps>`
   z-index: 20;
   cursor: pointer;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    left: 2rem;
+  }
+
   &:focus {
     outline: none;
   }
