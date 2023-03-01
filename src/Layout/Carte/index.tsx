@@ -49,13 +49,13 @@ const Carte = () => {
           <CarteBlock
             title="Uramakis"
             description="(Enrolado de alga invertido com arroz, gergelim e recheio)"
-            quantity="5 peças"
+            quantity="4 peças"
             dishes={dishes.uramaki}
           />
           <CarteBlock
             title="Hot Rolls"
             description="(Versão de Hossomaki empanada com cobertura de molho tarê)"
-            quantity="5 peças"
+            quantity="4 peças"
             dishes={dishes.hotRoll}
           />
           <CarteBlock
