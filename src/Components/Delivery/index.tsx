@@ -34,9 +34,9 @@ const Delivery = () => {
             Pratos quentes
           </S.CarteItem>
         </S.CarteList>
-        <Link to="/cardapio">
+        <a href="https://drive.google.com/file/d/1ox72qaCxWrbIPhAVcz6o1LCHFvcP_jaH/preview">
           <S.CarteButton>Conheça nosso cardápio completo</S.CarteButton>
-        </Link>
+        </a>
       </S.CarteContainer>
       <S.ContactContainer>
         <S.ContactImage src={hashi} />
@@ -52,9 +52,9 @@ const Delivery = () => {
         </S.ContactCard>
         <S.ContactCard bgColor="highlight">
           <S.ContactTitle> ou por telefone</S.ContactTitle>
-          <S.ContactNumber> (11) 94395-1664</S.ContactNumber>
+          <S.ContactNumber> (11) 98914-0372</S.ContactNumber>
           <S.ContactTitle>e também WhatsApp</S.ContactTitle>
-          <S.ContactNumber> (11) 97466-1227</S.ContactNumber>
+          <S.ContactNumber> (11) 98914-0372</S.ContactNumber>
         </S.ContactCard>
       </S.ContactContainer>
     </S.Delivery>

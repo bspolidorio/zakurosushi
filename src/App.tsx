@@ -1,7 +1,6 @@
 import { Global, ThemeProvider } from "@emotion/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Carte from "./layout/Carte";
-import Home from "./layout/Home";
+import Home from "./pages/Home";
 import Root from "./routes/root";
 import { GlobalStyles } from "./styles";
 import { theme } from "./theme";
@@ -14,10 +13,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-      },
-      {
-        path: "/cardapio",
-        element: <Carte />,
       },
     ],
   },

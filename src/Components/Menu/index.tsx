@@ -12,9 +12,9 @@ const Navigation = ({ open, setOpen }: Props) => {
       <Link to="/" onClick={() => setOpen(!open)}>
         Home
       </Link>
-      <Link to="/cardapio" onClick={() => setOpen(!open)}>
+      <a href="https://drive.google.com/file/d/1ox72qaCxWrbIPhAVcz6o1LCHFvcP_jaH/preview" onClick={() => setOpen(!open)}>
         Cardápio
-      </Link>
+      </a>
     </S.Menu>
   );
 };

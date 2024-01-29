@@ -9,7 +9,7 @@ const Takeaway = () => {
           <S.Text>
             Venha conhecer e retirar seu pedido no nosso estabelecimento
           </S.Text>
-          <S.Address> Rua do Oratorio, 3193 - Vila Prudente - SP</S.Address>
+          <S.Address>Vila Prudente - SP</S.Address>
         </S.ContactContainer>
       </S.Container>
     </S.Takeaway>
