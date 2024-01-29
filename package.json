@@ -1,7 +1,7 @@
 {
   "name": "zakurosushi",
-  "version": "0.1.0",
-  "homepage": "https://zakurosushi.com.br/",
+  "version": "0.2.0",
+  "homepage": "https://zakuro.com.br/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
