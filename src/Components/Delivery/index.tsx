@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import hashi from "../../assets/img/hashi_sushi.png";
 import sushis from "../../assets/img/sushis.jpeg";
 import sashimis from "../../assets/img/sashimis.jpeg";
